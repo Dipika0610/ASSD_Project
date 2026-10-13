@@ -1,0 +1,14 @@
+{
+  "name": "taskboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny task list app used to learn Docker, Docker Compose and GitHub Actions.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tasks.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
